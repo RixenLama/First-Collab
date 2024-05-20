@@ -24,7 +24,7 @@ fetch("/data/quotes.json")
       quoteClone.querySelector("#quote-content").innerText = content;
       quoteClone.querySelector(
         "#quote-cite"
-      ).innerText = `${cite.name} (${cite.class})`;
+      ).innerText = `${cite.name} (${cite.year})`;
 
       quoteCardContainer.appendChild(quoteClone);
     });
